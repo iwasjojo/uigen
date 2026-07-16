@@ -1,0 +1,33 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e45]:
+          - generic [ref=e46]: Create a simple button component
+          - generic [ref=e63]:
+            - generic [ref=e64]: str_replace_editor
+            - separator [ref=e67]
+            - paragraph [ref=e69]: "Now let me create the Button component:"
+            - generic [ref=e70]: str_replace_editor
+            - generic [ref=e73]: Generating...
+        - generic [ref=e20]:
+          - textbox "Describe the React component you want to create..." [disabled] [ref=e21]
+          - button [disabled] [ref=e22]
+    - separator [ref=e26]
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - tablist [ref=e31]:
+          - tab "Preview" [selected] [ref=e32]
+          - tab "Code" [ref=e33]
+        - generic [ref=e34]:
+          - button "Sign In" [ref=e35]
+          - button "Sign Up" [ref=e36]
+      - iframe [ref=e77]:
+        - generic [ref=f2e4]:
+          - button "Primary Button" [ref=f2e5] [cursor=pointer]
+          - button "Secondary Button" [ref=f2e6] [cursor=pointer]
+          - button "Accent Button" [ref=f2e7] [cursor=pointer]
+          - button "Ghost Button" [ref=f2e8] [cursor=pointer]
+          - button "Disabled Button" [disabled] [ref=f2e9]
+  - alert [ref=e78]

@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(timeout 60 npm install playwright@1.61.1 --no-save)",
+      "Bash(timeout 60 node shot.cjs after.png)",
+      "Bash(pkill -f \"next dev\")",
+      "Bash(pkill -f \"next-server\")",
+      "Bash(node -e ' *)",
+      "Bash(awk -F= '{print $1\"=\"substr\\($2,1,7\\)\"... \\(len:\"length\\($2\\)\"\\)\"}')",
+      "Bash(timeout 60 node repro.cjs)",
+      "Bash(netstat -ano)",
+      "Bash(timeout 60 node repro2.cjs)",
+      "Bash(wmic process *)",
+      "Bash(powershell -NoProfile -Command \"Get-CimInstance Win32_Process -Filter 'ProcessId=15072' | Select-Object ProcessId,ParentProcessId,CommandLine | Format-List\")",
+      "Bash(node -e \"require\\('fs'\\).readFileSync\\('.env','utf8'\\).split\\('\\\\n'\\).forEach\\(l=>{if\\(l.startsWith\\('ANTHROPIC_API_KEY='\\)\\)process.stdout.write\\(l.slice\\('ANTHROPIC_API_KEY='.length\\).trim\\(\\)\\)}\\)\")",
+      "Bash(curl -s https://api.anthropic.com/v1/messages -H 'x-api-key: __TRACKED_VAR__' -H 'anthropic-version: 2023-06-01' -H 'content-type: application/json' -d '{\"model\":\"claude-haiku-4-5\",\"max_tokens\":16,\"messages\":[{\"role\":\"user\",\"content\":\"hi\"}]}')",
+      "Bash(timeout 30 node repro3.cjs)",
+      "Bash(curl *)",
+      "Bash(npm run *)",
+      "mcp__playwright"
+    ]
+  }
+}

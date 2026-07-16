@@ -1,0 +1,46 @@
+   ▲ Next.js 15.3.9 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://172.29.48.1:3000
+   - Environments: .env
+
+ ✓ Starting...
+ ⚠ Invalid next.config.ts options detected: 
+ ⚠     Unrecognized key(s) in object: 'root' at "turbopack"
+ ⚠ See more info here: https://nextjs.org/docs/messages/invalid-next-config
+ ✓ Compiled middleware in 401ms
+ ✓ Ready in 2.6s
+ ○ Compiling / ...
+ ✓ Compiled / in 18.2s
+ GET / 200 in 4777ms
+ ○ Compiling /favicon.ico ...
+ ✓ Compiled /favicon.ico in 1350ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 1749ms
+ GET / 200 in 179ms
+ GET / 200 in 186ms
+ ○ Compiling /api/chat ...
+ ✓ Compiled /api/chat in 1416ms
+ POST /api/chat 200 in 6645ms
+ ✓ Compiled in 316ms
+ GET / 200 in 195ms
+ POST /api/chat 200 in 6657ms
+ GET / 200 in 167ms
+ POST /api/chat 200 in 4615ms
+ GET / 307 in 270ms
+ ○ Compiling /[projectId] ...
+ ✓ Compiled /[projectId] in 8.7s
+ GET /cmro3hpel0006w0mot6p4cbw6 200 in 10839ms
+ POST /cmro3hpel0006w0mot6p4cbw6 200 in 197ms
+ POST /api/chat 200 in 4219ms
+ GET /cmro3hpel0006w0mot6p4cbw6 200 in 216ms
+ POST /cmro3hpel0006w0mot6p4cbw6 200 in 195ms
+ GET /favicon.ico?favicon.45db1c09.ico 200 in 424ms
+ GET / 307 in 195ms
+ GET /cmro3hpel0006w0mot6p4cbw6 200 in 198ms
+ POST /cmro3hpel0006w0mot6p4cbw6 200 in 162ms
+ POST /api/chat 200 in 4017ms
+ POST /api/chat 200 in 5663ms
+ ✓ Compiled in 430ms
+ GET / 200 in 271ms
+ POST /api/chat 200 in 6788ms
+ POST /api/chat 200 in 8463ms
+ POST /api/chat 200 in 9340ms

@@ -1,0 +1,79 @@
+- generic [ref=f5e1]:
+  - generic [ref=f5e3]:
+    - generic [ref=f5e5]:
+      - heading "React Component Generator" [level=1] [ref=f5e7]
+      - generic [ref=f5e9]:
+        - generic [ref=f5e53]:
+          - generic [ref=f5e54]: Create a simple button component
+          - generic [ref=f5e94]:
+            - generic [ref=f5e95]: str_replace_editor
+            - separator [ref=f5e98]
+            - paragraph [ref=f5e100]: "Now I'll create the Button component:"
+            - generic [ref=f5e101]: str_replace_editor
+            - separator [ref=f5e104]
+            - paragraph [ref=f5e106]: Done. Created a Button component with three variants (primary, secondary, outline) and disabled state support.
+        - generic [ref=f5e20]:
+          - textbox "Describe the React component you want to create..." [ref=f5e21]
+          - button [disabled] [ref=f5e22]
+    - separator [ref=f5e26]
+    - generic [ref=f5e28]:
+      - generic [ref=f5e29]:
+        - tablist [ref=f5e31]:
+          - tab "Preview" [ref=f5e32]
+          - tab "Code" [active] [selected] [ref=f5e33]
+        - generic [ref=f5e34]:
+          - button "Sign In" [ref=f5e35]
+          - button "Sign Up" [ref=f5e36]
+      - generic [ref=f5e107]:
+        - generic [ref=f5e113]:
+          - generic [ref=f5e114]:
+            - generic [ref=f5e115] [cursor=pointer]: components
+            - generic [ref=f5e121]: Button.jsx
+          - generic [ref=f5e130]: App.jsx
+        - separator [ref=f5e138]
+        - code [ref=f5e143]:
+          - generic [ref=f5e144]:
+            - generic [ref=f5e146]:
+              - generic [ref=f5e147]: "1"
+              - generic [ref=f5e150]: "2"
+              - generic [ref=f5e152]:
+                - generic [ref=f5e153] [cursor=pointer]: 
+                - generic [ref=f5e154]: "3"
+              - generic [ref=f5e155]:
+                - generic [ref=f5e156] [cursor=pointer]: 
+                - generic [ref=f5e157]: "4"
+              - generic [ref=f5e158]:
+                - generic [ref=f5e159] [cursor=pointer]: 
+                - generic [ref=f5e160]: "5"
+              - generic [ref=f5e162]:
+                - generic [ref=f5e163] [cursor=pointer]: 
+                - generic [ref=f5e164]: "6"
+              - generic [ref=f5e165]: "7"
+              - generic [ref=f5e167]: "8"
+              - generic [ref=f5e169]: "9"
+              - generic [ref=f5e171]: "10"
+              - generic [ref=f5e173]: "11"
+              - generic [ref=f5e175]: "12"
+              - generic [ref=f5e177]: "13"
+              - generic [ref=f5e179]: "14"
+              - generic [ref=f5e181]: "15"
+            - generic [ref=f5e231]:
+              - generic [ref=f5e232]: import Button from '@/components/Button';
+              - generic [ref=f5e235]: "export default function App() {"
+              - generic [ref=f5e237]: return (
+              - generic [ref=f5e239]: <div className="min-h-screen bg-gradient-to-br from-slate-50
+              - generic [ref=f5e241]: to-slate-100 flex items-center justify-center p-6">
+              - generic [ref=f5e243]: <div className="space-y-6">
+              - generic [ref=f5e245]: <Button variant="primary">Primary Button</Button>
+              - generic [ref=f5e247]: <Button variant="secondary">Secondary Button</Button>
+              - generic [ref=f5e249]: <Button variant="outline">Outline Button</Button>
+              - generic [ref=f5e251]: <Button disabled>Disabled Button</Button>
+              - generic [ref=f5e253]: </div>
+              - generic [ref=f5e255]: </div>
+              - generic [ref=f5e257]: );
+              - generic [ref=f5e259]: "}"
+            - textbox "Editor content" [ref=f5e263]
+  - alert [ref=f5e47]
+  - generic [ref=f5e264]:
+    - alert
+    - alert
